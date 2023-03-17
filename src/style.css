@@ -581,6 +581,25 @@ button:focus {
   line-height: 1.6 !important;
 }
 
+.tech-icons-text {
+  font-size: 3.5em !important;
+  opacity: 0.93 !important;
+  vertical-align: middle !important;
+  text-align: center !important;
+  overflow: hidden !important;
+  transition: all 0.4s ease 0s !important;
+}
+
+@media (max-width: 767px) {
+  .tech-icons-text {
+  }
+}
+
+.tech-icons-text:hover {
+  transform: scale(1.05) !important;
+  overflow: hidden !important;
+}
+
 .quote-card-view {
   border: none !important;
   color: white !important;
