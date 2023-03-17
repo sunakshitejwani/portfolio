@@ -11,6 +11,7 @@ import Resume from "./components/Resume/ResumeNew";
 import ScrollButton from "./components/ScrollButton/ScrollButton";
 import {
   BrowserRouter as Router,
+  HashRouter,
   Route,
   Routes,
   Navigate
@@ -32,7 +33,7 @@ function App() {
   }, []);
 
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <HashRouter basename={process.env.PUBLIC_URL}>
       <Preloader load={load} />
       <div className="App" id={load ? "no-scroll" : "scroll"}>
         <Navbar />
@@ -49,7 +50,7 @@ function App() {
         </Routes>
         <Footer />
       </div>
-    </Router>
+    </HashRouter>
   );
 }
 
