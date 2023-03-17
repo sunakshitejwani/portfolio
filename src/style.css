@@ -804,6 +804,12 @@ button:focus {
   text-align: right;
 }
 
+.timeline-item-content:hover{
+  box-shadow: 0 0 15px #f5f3f2;
+  background-color:#ee922a;
+  color:#000;
+}
+
 .timeline-item-content::after {
   content: ' ';
   background-color: #fff;
@@ -828,7 +834,7 @@ button:focus {
 }
 
 .timeline-item-content .tag {
-  color: #fff;
+  color: #000;
   font-size: 12px;
   font-weight: bold;
   top: 5px;
