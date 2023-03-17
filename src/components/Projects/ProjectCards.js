@@ -13,10 +13,14 @@ function ProjectCards(props) {
         <Card.Text style={{ textAlign: "justify" }}>
           {props.description}
         </Card.Text>
-        <Button variant="primary" href={props.ghLink} target="_blank">
+        <Button variant="primary" href={props.ghLink} target="_blank" style={{margin:"10px"}}>
           {/* <BsGithub /> &nbsp; */}
           {props.isBlog ? "Blog" : "Project Link"}
-        </Button>
+        </Button><br />
+        {props.userPersona ? <Button variant="secondary" href={props.userPersona} target="_blank" style={{margin:"10px"}}>User Persona</Button> : ""} <br />
+        {props.empathyMap ? <Button variant="secondary" href={props.empathyMap} target="_blank" style={{margin:"10px"}}>Empathy Map</Button>: ""}<br />
+        {props.userJourney ? <Button variant="secondary" href={props.userJourney} target="_blank" style={{margin:"10px"}}>User Journey</Button>: ""}<br />
+
         {"\n"}
         {"\n"}
 
