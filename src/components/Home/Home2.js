@@ -21,38 +21,22 @@ function Home2() {
             <h1 style={{ fontSize: "2.6em" }}>
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
-            <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+            <p className="home-about-body"> 
               <br />
-              <br />I am fluent in classics like
+              <br />I got into product management by accident
+              <br />
               <i>
-                <b className="purple"> C++, Javascript and Python. </b>
+                <b className="purple"> while resolving customer bugs and feedback </b>
               </i>
               <br />
+              during development days I found that I love working with users.
               <br />
-              My field of Interest's are building new &nbsp;
-              <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Deep Learning and Natural Launguage Processing.
-                </b>
-              </i>
+              I like listening to their feedback and their pain points. &nbsp;
               <br />
-              <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
               <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
+              <b className="purple">This fueled my passion to find out the root cause of any issues at hand. </b>
               </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i>
+      
             </p>
             <div style={{ paddingLeft: 50, textAlign: "left" }}>
                 <Button
