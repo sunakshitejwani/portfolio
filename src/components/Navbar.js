@@ -8,7 +8,7 @@ import { AiOutlineDownload } from "react-icons/ai";
 import { Link } from "react-router-dom";
 import { CgGitFork } from "react-icons/cg";
 import { ImBlog } from "react-icons/im";
-import pdf from "../Assets/Sunakshi_Tejwani_PM_MU_Resume_2023.pdf";
+import pdf from "../Assets/PGP23041_Sunakshi_Tejwani.pdf";
 import {
   AiFillStar,
   AiOutlineHome,
@@ -108,7 +108,7 @@ function NavBar() {
                  to="/blog"
                  onClick={() => updateExpanded(false)}
               >
-                <ImBlog style={{ marginBottom: "2px" }} /> Blogs
+                <ImBlog style={{ marginBottom: "2px" }} /> Creator
               </Nav.Link>
             </Nav.Item>
 

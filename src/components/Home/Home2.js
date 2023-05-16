@@ -10,7 +10,7 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
-import pdf from "../../Assets/../Assets/Sunakshi_Tejwani_PM_MU_Resume_2023.pdf";
+import pdf from "../../Assets/../Assets/PGP23041_Sunakshi_Tejwani.pdf";
 
 function Home2() {
   return (

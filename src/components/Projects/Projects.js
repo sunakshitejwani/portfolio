@@ -8,6 +8,14 @@ import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
 import mindfulness from "../../Assets/Projects/mindfullness_p1.jpg";
 import amazon_music from "../../Assets/Projects/amazon_music.jpg";
+import tata_1mg from "../../Assets/Projects/tata1mg.png";
+import amazon_logo from "../../Assets/Projects/amazon_logo.png";
+import lms from "../../Assets/Projects/canvas_lms.png";
+import gmail from "../../Assets/Projects/Gmail_logo.jpg";
+import gmaps from "../../Assets/Projects/google_Maps.png";
+import metrics from "../../Assets/Projects/metrics.png";
+import swiggyuber from "../../Assets/Projects/swiggy_vs_ubereats.jpg";
+import superset from "../../Assets/Projects/superset.png";
 import chaayos from "../../Assets/Projects/chaayos.jpg";
 import elevator from "../../Assets/Projects/elevator.jpg";
 import homework from "../../Assets/Projects/homework_app.jpg";
@@ -45,23 +53,57 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={amazon_music}
+              imgPath={homework}
               isBlog={false}
-              title="Increasing Market Share of Amazon Music vs Spotify Case"
+              title="Homework App: to help teachers give homework effectively"
               description=""
-              ghLink="https://drive.google.com/file/d/1JFRrdPO1azYMH_qUll9ZqQEV_7Fno3W4/view?usp=share_link"
+              ghLink="https://drive.google.com/file/d/1itr1GAHq1rOOtuiZ-fRGb6R9AcXy1WjO/view?usp=share_link"
+              demoLink=""              
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={superset}
+              isBlog={false}
+              title="Improve Superset"
+              description="Improve the product Superset, innovate for students and disabilities."
+              ghLink="https://drive.google.com/file/d/1dH2THkW3S2QB-o2CGt5tsI7KzHnb76Gt/view?usp=sharing"
               demoLink=""
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={homework}
+              imgPath={swiggyuber}
               isBlog={false}
-              title="Homework App: to help teachers give homework effectively"
+              title="Swiggy vs Uber Eats"
+              description="Taking Design Decision - Menu design Swiggy v/s UberEats"
+              ghLink="https://drive.google.com/file/d/18dmJGMYeTFKlMIyBFUZoaKepK5vE3XUS/view?usp=sharing"
+              demoLink=""
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={tata_1mg}
+              isBlog={false}
+              title=":Tata 1MG - Homepage AB"
+              description="launched a new homepage of 1MG app.Currently the 2 versions are running in AB experiment
+              What are the metrics you would track as part of the AB"
+              ghLink="https://drive.google.com/file/d/1Wn_qqlbIy5v6fmXz8tvFhVN3ssyvEVP_/view?usp=sharing"
+              demoLink=""
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={amazon_music}
+              isBlog={false}
+              title="Increasing Market Share of Amazon Music vs Spotify Case"
               description=""
-              ghLink="https://drive.google.com/file/d/1ONM8cEmSAJQBOxhbu6MOACnwdfWvv6uc/view?usp=share_link"
-              demoLink=""              
+              ghLink="https://drive.google.com/file/d/138qBUq8_GPd_qTVDUS-G4NPRqkw7IdnZ/view?usp=share_link"
+              demoLink=""
             />
           </Col>
 
@@ -104,10 +146,60 @@ function Projects() {
               isBlog={false}
               title="Chayos"
               description="Chayos: Proposing Chayos a new Vending Machine and a dedicated work space"
-              ghLink="https://drive.google.com/file/d/1X0SaYy2MW6uLknvptuRyiW_W747_mXvQ/view?usp=share_link"
+              ghLink="https://drive.google.com/file/d/1PxqD8GWwyUuQiLXE1RminlH1aGtKVtri/view?usp=share_link"
               // demoLink=""      <--------Please include a demo link here 
             />
           </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={gmaps}
+              isBlog={false}
+              title="Improve Google Maps"
+              description="improve the discovery of Location sharing feature on Google Maps."
+              ghLink="https://drive.google.com/file/d/1F4NHwzAjbzD64_RSwgfSn0Ixo-fnyQT9/view?usp=share_link"
+              // demoLink=""      <--------Please include a demo link here 
+            />
+            </Col>
+            <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={gmail}
+              isBlog={false}
+              title="Product Strategy GMail"
+              description="Create product strategy to improve Gmail "
+              ghLink="https://drive.google.com/file/d/1NA8m9W5oOQxYvRAyqJJDbUs06eTCh69L/view?usp=sharing"
+              // demoLink=""      <--------Please include a demo link here 
+            />
+            </Col>
+            <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={lms}
+              isBlog={false}
+              title="LMS System"
+              description="List of features I would like to have as part of the LMS college app, into Epics / User Stories"
+              ghLink="https://drive.google.com/file/d/1A8GEa6ZugvxZB1zwPanuBuUZuhfM-NR6/view?usp=sharing"
+              // demoLink=""      <--------Please include a demo link here 
+            />
+            </Col>
+            <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={amazon_logo}
+              isBlog={false}
+              title="Metrics for amazon app re-design"
+              description="Metrics to track in new design of Amazon Home page."
+              ghLink="https://drive.google.com/file/d/1riRRfZz1mwZOIdoQH4MvekSheOEAn2fO/view?usp=sharing"
+              // demoLink=""      <--------Please include a demo link here 
+            />
+            </Col>
+            <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={metrics}
+              isBlog={false}
+              title="Saas metrics calculation and dashboarding"
+              description="Calculation of metrics marked in yellow."
+              ghLink="https://drive.google.com/file/d/1iARW6eLLcd9ZrvIvmcsX0CP76t-7wvLM/view?usp=sharing"
+              // demoLink=""      <--------Please include a demo link here 
+            />
+            </Col>
         </Row>
       </Container>
     </Container>
