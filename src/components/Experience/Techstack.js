@@ -1,52 +1,50 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { CgCPlusPlus } from "react-icons/cg";
+
 import {
-  DiJavascript1,
-  DiReact,
-  DiNodejs,
-  DiMongodb,
-  DiPython,
-  DiGit,
-} from "react-icons/di";
+  FaUsers
+} from "react-icons/fa";
+
 import {
-  SiPytorch,
-  SiFirebase,
-  SiNextdotjs,
+  MdDesignServices,
+  MdManageAccounts
+} from "react-icons/md";
+
+import {
+  BsClipboardData
+} from "react-icons/bs";
+
+import {
+  SiMicrostrategy,
+  SiPowerbi,
+  SiAdobephotoshop
 } from "react-icons/si";
 
 function Techstack() {
   return (
-    <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+    <Row style={{ justifyContent: "center", paddingBottom: "50px"}}>
       <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
+        <SiMicrostrategy />
+        <p style={{fontSize:"16px" }}>Go-To-Market Strategy</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
+        <MdManageAccounts />
+        <p style={{fontSize:"16px" }}>Product Management</p>
       </Col>
+
       <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
+        <BsClipboardData />
+        <p style={{fontSize:"16px" }}>Data Analysis</p>
       </Col>
+
       <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
+        <MdDesignServices />
+        <p style={{fontSize:"16px" }}>Product Design</p>
       </Col>
+
       <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiPytorch />
+        <FaUsers/>
+        <p style={{fontSize:"16px" }}>User Interface/User Experience</p>
       </Col>
     </Row>
   );
